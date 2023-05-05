@@ -33,3 +33,9 @@ button {
   border-radius: 8px;
   background: #12d21200;
 }
+button:hover {
+  background-color: #262525;
+  outline: 2px solid #262525;
+  color: #fff;
+  outline-offset: 2px;
+}

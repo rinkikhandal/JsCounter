@@ -4,6 +4,7 @@ const dec = document.querySelector(".decrease");
 const res = document.querySelector(".reset");
 
 let number1 = 0;
+number.textContent = number1;
 
 res.addEventListener("click", function () {
   number1 = 0;
